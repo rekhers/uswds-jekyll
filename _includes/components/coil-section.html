@@ -1,0 +1,9 @@
+<section class="coil-section">
+    <div class="coil-section-title"> {{ include.title }}</div>
+    <div class="coil-section-subtitle"> {{ include.subtitle }}</div>
+    <div class="coil-section-description"> {{ include.description }}</div>
+
+    {% for member in include.executiveChampion %}
+        <div> {{member.name}} </div>
+    {% endfor %}
+</section>

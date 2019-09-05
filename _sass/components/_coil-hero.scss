@@ -1,0 +1,39 @@
+.coil-hero {
+    background-color: $color-coil-blue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.coil-hero__container{
+    color: $color-white;
+    width: 100%;
+    margin: 72px 24px;
+    grid-column: span 12;
+
+    @include media($small-screen) {
+        grid-column: 2 / span 8;
+    }
+
+    @include media($medium-screen) {
+        margin: 110px 24px;
+        grid-column: 4 / span 6;
+    }
+}
+
+.coil-hero__date {
+    font-family: $font-roboto-mono;
+    font-size: $base-font-size;
+}
+
+.coil-hero__title {
+    font-family: $font-oswald;
+    font-size: $title-font-size;
+    text-transform: uppercase;
+}
+
+.coil-hero__description {
+    font-family: $font-roboto;
+    font-size: $lead-font-size;
+    max-width: 530px;
+}

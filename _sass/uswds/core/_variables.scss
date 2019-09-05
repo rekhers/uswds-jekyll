@@ -27,6 +27,10 @@ $lead-line-height:    1.7 !default;
 
 $font-sans:           'Source Sans Pro', $helvetica !default;
 $font-serif:          'Merriweather', $georgia !default;
+$font-oswald:         'Oswald', sans-serif;
+$font-roboto:         'Roboto', sans-serif;
+$font-roboto-mono:    'Roboto Mono', monospace;
+
 
 // TODO these should be called font-weight-${}
 $font-normal:         400 !default;
@@ -78,6 +82,7 @@ $color-cool-blue:            #205493 !default;
 $color-cool-blue-light:      #4773aa !default;
 $color-cool-blue-lighter:    #8ba6ca !default;
 $color-cool-blue-lightest:   #dce4ef !default;
+$color-coil-blue: #0059FC !default;
 
 $color-purple:               #4c2c92 !default;
 
