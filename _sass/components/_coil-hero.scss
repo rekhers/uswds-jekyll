@@ -1,14 +1,18 @@
 .coil-hero {
     background-color: $color-coil-blue;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    padding: 24px 1.5rem;
+
+    @include media($small-screen) {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
 }
 
 .coil-hero__container{
     color: $color-white;
     width: 100%;
-    margin: 72px 24px;
     grid-column: span 12;
 
     @include media($small-screen) {
