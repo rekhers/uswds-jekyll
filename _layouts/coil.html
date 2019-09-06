@@ -1,0 +1,30 @@
+---
+layout: default
+main:
+  class: coil-main
+---
+
+{% include components/coil-hero.html %}
+
+{% include components/coil-section.html
+    backgroundColor="gray"
+    color="red"
+    title=site.data.investment.title 
+    subtitle=site.data.investment.subtitle
+    description=site.data.investment.description
+    executiveChampion=site.data.investment.executiveChampion
+    productAdvisors=site.data.investment.productAdvisors
+    techTeams = site.data.investment.techTeams
+    userAdvocates = site.data.investment.userAdvocates %}
+
+
+
+{% include components/coil-section.html
+  color="blue"
+  title=site.data.talent.title 
+  subtitle=site.data.talent.subtitle
+  description=site.data.talent.description
+  executiveChampion=site.data.talent.executiveChampion
+  productAdvisors=site.data.talent.productAdvisors
+  techTeams = site.data.talent.techTeams
+  userAdvocates = site.data.talent.userAdvocates %}

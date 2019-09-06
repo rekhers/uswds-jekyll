@@ -27,6 +27,10 @@ $lead-line-height:    1.7 !default;
 
 $font-sans:           'Source Sans Pro', $helvetica !default;
 $font-serif:          'Merriweather', $georgia !default;
+$font-oswald:         'Oswald', sans-serif;
+$font-roboto:         'Roboto', sans-serif;
+$font-roboto-mono:    'Roboto Mono', monospace;
+
 
 // TODO these should be called font-weight-${}
 $font-normal:         400 !default;
@@ -48,6 +52,7 @@ $color-red-dark:             #cd2026 !default;
 $color-red-darkest:          #981b1e !default;
 $color-red-light:            #e59393 !default;
 $color-red-lightest:         #f9dede !default;
+$color-coil-red:             #FF3D40 !default;
 
 $color-white:                #ffffff !default;
 $color-black:                #000000 !default;
@@ -63,6 +68,8 @@ $color-gray-lightest:        #f1f1f1 !default;
 $color-gray-warm-dark:       #494440 !default;
 $color-gray-warm-light:      #e4e2e0 !default;
 $color-gray-cool-light:      #dce4ef !default;
+$color-coil-gray:            #4F4F4F !default;
+$color-coil-background:      #FCFCFC !default;
 
 $color-gold:                 #fdb81e !default;
 $color-gold-light:           #f9c642 !default;
@@ -78,6 +85,7 @@ $color-cool-blue:            #205493 !default;
 $color-cool-blue-light:      #4773aa !default;
 $color-cool-blue-lighter:    #8ba6ca !default;
 $color-cool-blue-lightest:   #dce4ef !default;
+$color-coil-blue:            #0059FC !default;
 
 $color-purple:               #4c2c92 !default;
 
