@@ -1,9 +1,14 @@
 .coil-section {
     font-family: $font-roboto;
-    margin: 64px;
+    padding: 64px 0;
+    width: 100%;
     display: grid;  
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1.5rem;
+}
+
+.coil-section__gray {
+    background-color: $color-coil-background;
 }
 
 .coil-section__accent {
@@ -92,8 +97,8 @@
 
 .coil-section__team {
     border-top: 1px solid $color-coil-gray;
-    margin: 5px 15px 15px 0px;
-    padding-top: 4px;
+    margin: 5px 25px 15px 0px;
+    padding-top: 5px;
     width: 227px;
     font-weight: bold;
 }
